@@ -1,0 +1,19 @@
+{
+  "name": "chippy-bot",
+  "version": "1.0.0",
+  "description": "A bot for assisting the Chainmonsters Discord",
+  "main": "main.js",
+  "repository": "github:bside-luke/chippy-bot",
+  "author": "Luke <luke@bsidegames.com>",
+  "bugs": "https://github.com/bside-luke/chippy-bot/issues",
+  "license": "AGPL-3.0",
+  "private": true,
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "discord.js": "^13.0.1",
+    "dotenv": "^10.0.0",
+    "erlpack": "discord/erlpack",
+    "utf-8-validate": "^5.0.5",
+    "zlib-sync": "^0.1.7"
+  }
+}
