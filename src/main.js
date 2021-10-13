@@ -19,8 +19,6 @@ const intents = {
 };
 
 const commands = [
-    { name: 'status', description: 'Shows your statistics' },
-    { name: 'init', description: 'For internal use' }
 ];
 
 const rest = new REST({ version: '9' }).setToken(BOT_TOKEN);
